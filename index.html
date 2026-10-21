@@ -1,0 +1,3045 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1195165865561232');
+    fbq('track', 'PageView');
+  </script>
+  <!-- End Meta Pixel Code -->
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-P5R3N7TF');</script>
+  <!-- End Google Tag Manager -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nationwide Immigration LLC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    /* ─── RESET & BASE ─────────────────────────────────── */
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --red: #C62828;
+      --red-dark: #9B1C1C;
+      --red-light: #EF5350;
+      --navy: #0F1B3C;
+      --navy-mid: #1E3A5F;
+      --slate: #1E293B;
+      --muted: #64748B;
+      --light: #F1F5F9;
+      --white: #FFFFFF;
+      --gold: #F59E0B;
+      --radius: 16px;
+      --shadow-sm: 0 2px 12px rgba(0, 0, 0, .06);
+      --shadow-md: 0 8px 32px rgba(0, 0, 0, .10);
+      --shadow-lg: 0 24px 64px rgba(0, 0, 0, .14);
+      --transition: .35s cubic-bezier(.4, 0, .2, 1);
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--white);
+      color: var(--slate);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    /* ─── UTILITY ──────────────────────────────────────── */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .container--wide {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .pill-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: .78rem;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 1rem;
+    }
+
+    .pill-label::before {
+      content: '';
+      width: 24px;
+      height: 2px;
+      background: var(--red);
+      border-radius: 2px;
+    }
+
+    .section-title {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 800;
+      color: var(--slate);
+      line-height: 1.15;
+      letter-spacing: -.03em;
+    }
+
+    .section-title--white {
+      color: var(--white);
+    }
+
+    .section-body {
+      font-size: 1.05rem;
+      color: var(--muted);
+      line-height: 1.7;
+      max-width: 600px;
+    }
+
+    /* ─── NAV ──────────────────────────────────────────── */
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      padding: 0 24px;
+      background: rgba(15, 27, 60, .85);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(255, 255, 255, .06);
+      transition: var(--transition);
+    }
+
+    .nav__inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 68px;
+    }
+
+    .nav__logo {
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: var(--white);
+      letter-spacing: -.02em;
+    }
+
+    .nav__logo span {
+      color: var(--red-light);
+    }
+
+    .nav__links {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    .nav__links a {
+      font-size: .88rem;
+      font-weight: 500;
+      color: rgba(255, 255, 255, .75);
+      transition: color .2s;
+    }
+
+    .nav__links a:hover {
+      color: var(--white);
+    }
+
+    /* Translation Dropdown */
+    #google_translate_element,
+    .skiptranslate {
+      display: none !important;
+    }
+
+    body {
+      top: 0 !important;
+    }
+
+    .hero__logo {
+      max-width: 450px;
+      margin-bottom: 2rem;
+      filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.3));
+      animation: fadeInDown 0.8s ease-out;
+    }
+
+    /* ── Language dropdown ─────────────────────────────── */
+    .flag-icon {
+      width: 20px;
+      height: auto;
+      vertical-align: middle;
+      border-radius: 2px;
+    }
+
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .lang-dropdown {
+      position: relative;
+    }
+
+    .lang-dropdown__toggle {
+      background: rgba(255, 255, 255, .1);
+      border: 1px solid rgba(255, 255, 255, .2);
+      color: #fff;
+      padding: 7px 14px;
+      border-radius: 50px;
+      font-family: inherit;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      transition: all 0.2s;
+      line-height: 1;
+      white-space: nowrap;
+    }
+
+    .lang-dropdown__toggle:hover {
+      background: rgba(255, 255, 255, .22);
+    }
+
+    .lang-dropdown__toggle i {
+      font-size: .7rem;
+      opacity: .75;
+      transition: transform .2s;
+    }
+
+    .lang-dropdown.open .lang-dropdown__toggle i {
+      transform: rotate(180deg);
+    }
+
+    .lang-dropdown__menu {
+      display: none;
+      position: absolute;
+      top: calc(100% + 10px);
+      right: 0;
+      background: rgba(15, 27, 60, .96);
+      backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, .12);
+      border-radius: 14px;
+      padding: 8px;
+      min-width: 160px;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, .35);
+      z-index: 200;
+      animation: fadeInDown .2s ease;
+    }
+
+    .lang-dropdown.open .lang-dropdown__menu {
+      display: block;
+    }
+
+    .lang-flag-btn {
+      background: none;
+      border: none;
+      color: #fff;
+      padding: 9px 12px;
+      border-radius: 10px;
+      font-family: inherit;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      transition: background .15s;
+      line-height: 1;
+      width: 100%;
+      text-align: left;
+      white-space: nowrap;
+    }
+
+    .lang-flag-btn:hover {
+      background: rgba(255, 255, 255, .12);
+    }
+
+    .lang-flag-btn.active {
+      background: rgba(255, 255, 255, .18);
+    }
+
+    .nav__cta {
+      background: var(--red);
+      color: var(--white) !important;
+      padding: 9px 22px;
+      border-radius: 50px;
+      font-weight: 700 !important;
+      font-size: .85rem !important;
+      transition: background .2s, transform .2s !important;
+    }
+
+    .nav__cta:hover {
+      background: var(--red-dark) !important;
+      transform: translateY(-1px);
+    }
+
+    @media (max-width: 768px) {
+      .nav__links {
+        display: none;
+      }
+
+      .nav__inner {
+        padding: 0 10px;
+        justify-content: space-between;
+        position: relative;
+      }
+
+      .nav__logo {
+        position: relative !important;
+        left: auto !important;
+        top: auto !important;
+        transform: none !important;
+        opacity: 1 !important;
+        pointer-events: auto !important;
+        display: flex !important;
+        align-items: center;
+        justify-content: flex-start;
+      }
+
+      .nav__logo img {
+        height: 40px !important;
+      }
+
+      .lang-dropdown__menu {
+        right: 0;
+        left: auto;
+      }
+    }
+
+    /* ─── HERO ─────────────────────────────────────────── */
+    .hero {
+      min-height: 100vh;
+      background: linear-gradient(135deg, var(--navy) 0%, #1A2C55 50%, #0D1F44 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+      padding: 100px 24px 60px;
+    }
+
+    /* animated gradient mesh */
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 80% 60% at 70% 50%, rgba(198, 40, 40, .18) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 80% at 10% 80%, rgba(30, 64, 175, .2) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    /* grid lines */
+    .hero::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255, 255, 255, .025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, .025) 1px, transparent 1px);
+      background-size: 60px 60px;
+      pointer-events: none;
+    }
+
+    .hero__inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5rem;
+      align-items: center;
+      position: relative;
+      z-index: 2;
+      width: 100%;
+    }
+
+    .hero__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 18px;
+      background: rgba(255, 255, 255, .06);
+      border: 1px solid rgba(255, 255, 255, .12);
+      border-radius: 50px;
+      color: rgba(255, 255, 255, .8);
+      font-size: .8rem;
+      font-weight: 600;
+      letter-spacing: .5px;
+      margin-bottom: 1.5rem;
+      backdrop-filter: blur(10px);
+    }
+
+    .hero__badge-dot {
+      width: 8px;
+      height: 8px;
+      background: #4ADE80;
+      border-radius: 50%;
+      box-shadow: 0 0 0 3px rgba(74, 222, 128, .25);
+      animation: pulse-dot 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse-dot {
+
+      0%,
+      100% {
+        box-shadow: 0 0 0 3px rgba(74, 222, 128, .25);
+      }
+
+      50% {
+        box-shadow: 0 0 0 6px rgba(74, 222, 128, .1);
+      }
+    }
+
+    .hero__title {
+      font-size: clamp(2.1rem, 3.8vw, 3.2rem);
+      font-weight: 900;
+      line-height: 1.08;
+      letter-spacing: -.04em;
+      color: var(--white);
+      margin-bottom: 1.5rem;
+    }
+
+    .hero__title .hl {
+      color: var(--red-light);
+    }
+
+    .hero__desc {
+      font-size: 1.05rem;
+      color: rgba(255, 255, 255, .72);
+      line-height: 1.75;
+      max-width: 560px;
+      margin-bottom: 2rem;
+    }
+
+    .hero__info-strip {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 14px 20px;
+      background: rgba(255, 255, 255, .05);
+      border: 1px solid rgba(255, 255, 255, .1);
+      border-radius: 12px;
+      margin-bottom: 2.5rem;
+      backdrop-filter: blur(10px);
+    }
+
+    .hero__info-icon {
+      font-size: 1.6rem;
+      flex-shrink: 0;
+    }
+
+    .hero__info-text {
+      font-size: .9rem;
+      font-weight: 600;
+      color: rgba(255, 255, 255, .9);
+    }
+
+    .hero__cta-row {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 15px 32px;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: .95rem;
+      letter-spacing: .3px;
+      transition: var(--transition);
+      cursor: pointer;
+      border: none;
+    }
+
+    .btn--primary {
+      background: var(--red);
+      color: var(--white);
+      box-shadow: 0 10px 30px rgba(198, 40, 40, .35);
+    }
+
+    .btn--primary:hover {
+      background: var(--red-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 16px 40px rgba(198, 40, 40, .45);
+    }
+
+    /* image side */
+    .hero__visual {
+      position: relative;
+      animation: fadeSlideRight .9s .2s both ease-out;
+    }
+
+    @keyframes fadeSlideRight {
+      from {
+        opacity: 0;
+        transform: translateX(40px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .hero__img-wrap {
+      border-radius: 24px;
+      overflow: hidden;
+      position: relative;
+      box-shadow: 0 40px 80px rgba(0, 0, 0, .4);
+      border: 1px solid rgba(255, 255, 255, .08);
+    }
+
+    .hero__img-wrap::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, transparent 50%, rgba(10, 20, 50, .6) 100%);
+      pointer-events: none;
+    }
+
+    .hero__img {
+      width: 100%;
+      height: 600px;
+      object-fit: cover;
+      object-position: center top;
+    }
+
+    /* floating stats cards */
+    .hero__stat {
+      position: absolute;
+      background: rgba(255, 255, 255, .95);
+      backdrop-filter: blur(12px);
+      border-radius: 14px;
+      padding: 14px 20px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, .25);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .hero__stat--1 {
+      bottom: 30px;
+      left: -30px;
+    }
+
+    .hero__stat--2 {
+      top: 40px;
+      right: -20px;
+    }
+
+    .hero__stat-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--red), var(--red-dark));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 1.1rem;
+      flex-shrink: 0;
+    }
+
+    .hero__stat-num {
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: var(--slate);
+      line-height: 1;
+    }
+
+    .hero__stat-label {
+      font-size: .75rem;
+      font-weight: 500;
+      color: var(--muted);
+    }
+
+    @media (max-width: 1024px) {
+      .hero__inner {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        text-align: center;
+      }
+
+      .hero__logo {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 280px;
+      }
+
+      .hero__desc {
+        max-width: 100%;
+      }
+
+      .hero__cta-row {
+        justify-content: center;
+      }
+
+      .hero__info-strip {
+        text-align: left;
+      }
+
+      .hero__stat--1,
+      .hero__stat--2 {
+        display: none;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .hero__img {
+        height: 380px;
+      }
+    }
+
+    /* ─── SERVICES ─────────────────────────────────────── */
+    .services {
+      padding: 100px 0;
+      background: var(--light);
+    }
+
+    .services__header {
+      text-align: center;
+      margin-bottom: 56px;
+    }
+
+    .services__header .section-body {
+      margin: 1rem auto 0;
+    }
+
+    .services__grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .service-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      overflow: hidden;
+      position: relative;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid rgba(0, 0, 0, .05);
+      transition: var(--transition);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .service-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .service-card__img-wrap {
+      position: relative;
+      height: 220px;
+      overflow: hidden;
+    }
+
+    .service-card__img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform .5s ease;
+    }
+
+    .service-card:hover .service-card__img-wrap img {
+      transform: scale(1.06);
+    }
+
+    .service-card__img-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(15, 27, 60, .15) 0%, rgba(15, 27, 60, .7) 100%);
+    }
+
+    /* icon in corner of image */
+    .service-card__badge {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      width: 46px;
+      height: 46px;
+      background: var(--red);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 1.1rem;
+      box-shadow: 0 6px 20px rgba(198, 40, 40, .4);
+    }
+
+    .service-card__body {
+      padding: 28px 28px 32px;
+      flex: 1;
+    }
+
+    .service-card__title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--slate);
+      margin-bottom: 10px;
+    }
+
+    .service-card__desc {
+      font-size: .92rem;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .service-card__footer {
+      padding: 0 28px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .service-card__link {
+      font-size: .85rem;
+      font-weight: 700;
+      color: var(--red);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: gap .2s;
+    }
+
+    .service-card:hover .service-card__link {
+      gap: 10px;
+    }
+
+    .service-card__num {
+      font-size: 3.5rem;
+      font-weight: 900;
+      color: rgba(0, 0, 0, .04);
+      line-height: 1;
+      letter-spacing: -.04em;
+    }
+
+    @media (max-width: 900px) {
+      .services__grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (min-width: 640px) and (max-width: 900px) {
+      .services__grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    /* ─── TEAM ─────────────────────────────────────────── */
+    .team {
+      padding: 100px 0;
+      background: linear-gradient(160deg, var(--navy) 0%, #1A2C55 100%);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .team::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255, 255, 255, .02) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, .02) 1px, transparent 1px);
+      background-size: 50px 50px;
+      pointer-events: none;
+    }
+
+    .team__header {
+      text-align: center;
+      margin-bottom: 56px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .team__header .pill-label {
+      color: var(--gold);
+    }
+
+    .team__header .pill-label::before {
+      background: var(--gold);
+    }
+
+    .team__header .section-body {
+      color: rgba(255, 255, 255, .65);
+      margin: 1rem auto 0;
+    }
+
+    .team__track-wrap {
+      position: relative;
+      z-index: 2;
+    }
+
+    .team__track {
+      display: flex;
+      gap: 24px;
+      overflow-x: auto;
+      padding: 8px 4px 20px;
+      scroll-behavior: smooth;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+
+    .team__track::-webkit-scrollbar {
+      display: none;
+    }
+
+    .team-card {
+      min-width: 320px;
+      background: rgba(255, 255, 255, .07);
+      border: 1px solid rgba(255, 255, 255, .12);
+      border-radius: 20px;
+      overflow: hidden;
+      transition: var(--transition);
+      backdrop-filter: blur(16px);
+    }
+
+    .team-card:hover {
+      background: rgba(255, 255, 255, .11);
+      transform: translateY(-6px);
+      box-shadow: 0 30px 60px rgba(0, 0, 0, .3);
+    }
+
+    .team-card__photo-wrap {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .team-card__photo {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+      object-position: center top;
+      transition: transform .5s ease;
+    }
+
+    .team-card:hover .team-card__photo {
+      transform: scale(1.05);
+    }
+
+    .team-card__photo-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, transparent 40%, rgba(10, 20, 50, .8) 100%);
+    }
+
+    .team-card__body {
+      padding: 24px;
+    }
+
+    .team-card__name {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 4px;
+    }
+
+    .team-card__role {
+      font-size: .78rem;
+      font-weight: 700;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      margin-bottom: 14px;
+    }
+
+    .team-card__divider {
+      width: 30px;
+      height: 2px;
+      background: var(--red);
+      border-radius: 2px;
+      margin-bottom: 14px;
+    }
+
+    .team-card__desc {
+      font-size: .88rem;
+      color: rgba(255, 255, 255, .72);
+      line-height: 1.65;
+    }
+
+    .team-card__desc .description-short {
+      display: none;
+    }
+
+    .team-card__desc .description-full {
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .team-card__desc.expanded .description-full {
+      display: block;
+      -webkit-line-clamp: unset;
+      overflow: visible;
+    }
+
+    .read-more-btn {
+      background: none;
+      border: none;
+      color: var(--gold);
+      cursor: pointer;
+      font-weight: 600;
+      font-size: .85rem;
+      padding: 8px 0 0;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      transition: gap .2s;
+    }
+
+    .read-more-btn:hover {
+      gap: 8px;
+    }
+
+    .team__controls {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 32px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .carousel-btn {
+      width: 48px;
+      height: 48px;
+      background: rgba(255, 255, 255, .08);
+      border: 1px solid rgba(255, 255, 255, .15);
+      border-radius: 50%;
+      color: white;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: var(--transition);
+      font-size: 1rem;
+    }
+
+    .carousel-btn:hover {
+      background: var(--gold);
+      color: var(--navy);
+      border-color: var(--gold);
+      transform: scale(1.08);
+    }
+
+    /* ─── TESTIMONIALS ─────────────────────────────────── */
+    .testimonials {
+      padding: 100px 0;
+      background: var(--white);
+    }
+
+    .testimonials__header {
+      text-align: center;
+      margin-bottom: 56px;
+    }
+
+    .testimonials__header .section-body {
+      margin: 1rem auto 0;
+    }
+
+    .testimonials__grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .testi-card {
+      background: var(--white);
+      border: 1px solid rgba(0, 0, 0, .07);
+      border-radius: var(--radius);
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .testi-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--red), var(--red-light));
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform .4s ease;
+    }
+
+    .testi-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .testi-card:hover::before {
+      transform: scaleX(1);
+    }
+
+    .testi-card__stars {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 20px;
+    }
+
+    .testi-card__stars i {
+      color: var(--gold);
+      font-size: .9rem;
+    }
+
+    .testi-card__quote {
+      font-size: 1rem;
+      color: #374151;
+      line-height: 1.7;
+      font-style: italic;
+      flex: 1;
+      margin-bottom: 24px;
+    }
+
+    .testi-card__quote::before {
+      content: '\201C';
+      color: var(--red);
+      font-size: 2.2rem;
+      line-height: .4;
+      font-style: normal;
+      display: block;
+      margin-bottom: 12px;
+      opacity: .45;
+    }
+
+    .testi-card__author {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .testi-card__avatar {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--red), var(--red-dark));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: 800;
+      font-size: 1.1rem;
+      flex-shrink: 0;
+    }
+
+    .testi-card__name {
+      font-weight: 700;
+      font-size: .93rem;
+      color: var(--slate);
+    }
+
+    .testi-card__case {
+      font-size: .8rem;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+
+    @media (max-width: 900px) {
+      .testimonials__grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (min-width: 600px) and (max-width: 900px) {
+      .testimonials__grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    /* ─── PARTNERS ─────────────────────────────────────── */
+    .partners {
+      padding: 100px 0;
+      background: var(--light);
+    }
+
+    .partners__header {
+      text-align: center;
+      margin-bottom: 56px;
+    }
+
+    .partners__header .section-body {
+      margin: 1rem auto 0;
+    }
+
+    .partners__track {
+      display: flex;
+      gap: 24px;
+      overflow-x: auto;
+      padding: 8px 4px 20px;
+      scroll-behavior: smooth;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+
+    .partners__track::-webkit-scrollbar {
+      display: none;
+    }
+
+    .partner-card {
+      min-width: 280px;
+      background: var(--white);
+      border-radius: var(--radius);
+      overflow: hidden;
+      border: 1px solid rgba(0, 0, 0, .06);
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+    }
+
+    .partner-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .partner-card__img-wrap {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .partner-card__img {
+      width: 100%;
+      height: 310px;
+      object-fit: cover;
+      object-position: center top;
+      transition: transform .5s ease;
+    }
+
+    .partner-card:hover .partner-card__img {
+      transform: scale(1.05);
+    }
+
+    .partner-card__img-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, transparent 50%, rgba(10, 20, 50, .55) 100%);
+    }
+
+    .partner-card__country {
+      position: absolute;
+      bottom: 12px;
+      left: 16px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--red);
+      color: white;
+      font-size: .74rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .8px;
+      padding: 5px 12px;
+      border-radius: 50px;
+    }
+
+    .partner-card__body {
+      padding: 22px;
+    }
+
+    .partner-card__name {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 10px;
+    }
+
+    .partner-card__desc {
+      font-size: .86rem;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .partner-card__desc .description-short {
+      display: none;
+    }
+
+    .partner-card__desc .description-full {
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .partner-card__desc.expanded .description-full {
+      display: block;
+      -webkit-line-clamp: unset;
+      overflow: visible;
+    }
+
+    .partner-card .read-more-btn {
+      color: var(--navy);
+      padding-top: 10px;
+    }
+
+    .partner-card .read-more-btn:hover {
+      color: var(--red);
+    }
+
+    .partners__controls {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 32px;
+    }
+
+    .carousel-control-btn {
+      width: 48px;
+      height: 48px;
+      background: var(--white);
+      border: 2px solid #E2E8F0;
+      border-radius: 50%;
+      color: var(--muted);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      transition: var(--transition);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .carousel-control-btn:hover {
+      background: var(--navy);
+      color: white;
+      border-color: var(--navy);
+      transform: scale(1.08);
+    }
+
+    /* ─── LOCATION ─────────────────────────────────────── */
+    .location {
+      padding: 100px 0;
+      background: linear-gradient(160deg, var(--navy) 0%, #1E3460 100%);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .location::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 70% 80% at 0% 50%, rgba(198, 40, 40, .12) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    .location__intro {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto 4rem auto;
+      position: relative;
+      z-index: 2;
+    }
+
+    .location__pill {
+      color: var(--gold);
+      margin-bottom: .8rem;
+    }
+
+    .location__pill::before {
+      background: var(--gold);
+    }
+
+    .location__title {
+      font-size: clamp(1.8rem, 3vw, 2.6rem);
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.2;
+      letter-spacing: -.03em;
+      margin-bottom: 1rem;
+    }
+
+    .location__desc-main {
+      color: rgba(255, 255, 255, .7);
+      font-size: 1.05rem;
+      line-height: 1.7;
+      margin-bottom: 1.5rem;
+    }
+
+    .location__actions {
+      display: flex;
+      justify-content: center;
+      margin-top: 1.5rem;
+    }
+
+    .location__grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      position: relative;
+      z-index: 2;
+    }
+
+    .office-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 24px;
+      padding: 2.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+      transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .office-card:hover {
+      transform: translateY(-5px);
+      border-color: rgba(198, 40, 40, 0.4);
+      box-shadow: 0 25px 50px rgba(198, 40, 40, 0.15);
+    }
+
+    .office-card__info {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .office-card__title {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--white);
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .office-card__title i {
+      color: var(--red-light);
+    }
+
+    .office-card__address {
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    .map-wrap {
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 30px 60px rgba(0, 0, 0, .35);
+      border: 1px solid rgba(255, 255, 255, .08);
+      height: 420px;
+    }
+
+    .map-wrap iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      display: block;
+    }
+
+    .office-card .map-wrap {
+      height: 320px;
+      margin-top: auto;
+      border-radius: 16px;
+    }
+
+    @media (max-width: 1100px) {
+      .location__grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .location__grid {
+        grid-template-columns: 1fr;
+      }
+
+      .office-card {
+        padding: 1.8rem;
+      }
+    }
+
+    /* ─── KELMER STORY ─────────────────────────────────── */
+    .story {
+      padding: 100px 0;
+      background: var(--white);
+    }
+
+    .story__inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5rem;
+      align-items: center;
+    }
+
+    .story__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(198, 40, 40, .08);
+      border: 1px solid rgba(198, 40, 40, .2);
+      color: var(--red);
+      font-size: .78rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 7px 16px;
+      border-radius: 50px;
+      margin-bottom: 1.2rem;
+    }
+
+    .story__title {
+      font-size: clamp(2rem, 3.5vw, 2.8rem);
+      font-weight: 800;
+      line-height: 1.15;
+      letter-spacing: -.03em;
+      color: var(--slate);
+      margin-bottom: 1.2rem;
+    }
+
+    .story__text {
+      font-size: 1rem;
+      color: var(--muted);
+      line-height: 1.8;
+      margin-bottom: 2rem;
+    }
+
+    .story__video-wrap {
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+      position: relative;
+      aspect-ratio: 16/9;
+      margin-bottom: 16px;
+      border: 1px solid rgba(0, 0, 0, .05);
+    }
+
+    .story__video-wrap iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      display: block;
+    }
+
+    .story__lang-btns {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .lang-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 11px 22px;
+      border-radius: 10px;
+      font-size: .88rem;
+      font-weight: 700;
+      border: 2px solid;
+      transition: var(--transition);
+    }
+
+    .lang-btn--es {
+      border-color: var(--red);
+      color: var(--red);
+    }
+
+    .lang-btn--es:hover {
+      background: var(--red);
+      color: white;
+      box-shadow: 0 8px 24px rgba(198, 40, 40, .3);
+      transform: translateY(-2px);
+    }
+
+    .lang-btn--en {
+      border-color: var(--navy);
+      color: var(--navy);
+    }
+
+    .lang-btn--en:hover {
+      background: var(--navy);
+      color: white;
+      box-shadow: 0 8px 24px rgba(15, 27, 60, .25);
+      transform: translateY(-2px);
+    }
+
+    @media (max-width: 900px) {
+      .story__inner {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+      }
+    }
+
+    /* ─── FOOTER ───────────────────────────────────────── */
+    .footer {
+      background: var(--navy);
+      color: var(--white);
+      padding: 70px 0 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .footer::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--red), #E53E3E, var(--red));
+    }
+
+    .footer__grid {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
+      gap: 3rem;
+      margin-bottom: 56px;
+    }
+
+    .footer__brand {
+      margin-bottom: 1.2rem;
+    }
+
+    .footer__brand-name {
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: var(--white);
+      letter-spacing: -.02em;
+      margin-bottom: 10px;
+    }
+
+    .footer__brand-name span {
+      color: var(--red-light);
+    }
+
+    .footer__brand-desc {
+      font-size: .88rem;
+      color: rgba(255, 255, 255, .5);
+      line-height: 1.65;
+    }
+
+    .footer__social {
+      display: flex;
+      gap: 12px;
+      margin-top: 20px;
+    }
+
+    .footer__social a {
+      width: 38px;
+      height: 38px;
+      background: rgba(255, 255, 255, .06);
+      border: 1px solid rgba(255, 255, 255, .1);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255, 255, 255, .7);
+      font-size: 1rem;
+      transition: var(--transition);
+    }
+
+    .footer__social a:hover {
+      background: var(--red);
+      border-color: var(--red);
+      color: white;
+      transform: translateY(-2px);
+    }
+
+    .footer__col-title {
+      font-size: .82rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      color: rgba(255, 255, 255, .4);
+      margin-bottom: 1.2rem;
+    }
+
+    .footer__links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .footer__links a {
+      font-size: .9rem;
+      color: rgba(255, 255, 255, .6);
+      transition: color .2s;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .footer__links a::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--red);
+      opacity: 0;
+      flex-shrink: 0;
+      transition: opacity .2s;
+    }
+
+    .footer__links a:hover {
+      color: white;
+    }
+
+    .footer__links a:hover::before {
+      opacity: 1;
+    }
+
+    .footer__contact {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .footer__contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      font-size: .88rem;
+      color: rgba(255, 255, 255, .65);
+      line-height: 1.6;
+    }
+
+    .footer__contact-item i {
+      color: var(--red-light);
+      font-size: .9rem;
+      margin-top: 2px;
+      flex-shrink: 0;
+    }
+
+    .footer__bottom {
+      border-top: 1px solid rgba(255, 255, 255, .07);
+      padding: 24px;
+      text-align: center;
+      font-size: .82rem;
+      color: rgba(255, 255, 255, .35);
+    }
+
+    @media (max-width: 900px) {
+      .footer__grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .footer__grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ─── SECTION DIVIDER / SHAPES ────────────────────── */
+    .shape-divider {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+      transform: rotate(180deg);
+    }
+
+    .shape-divider svg {
+      display: block;
+    }
+
+    /* ─── SCROLL REVEAL ────────────────────────────────── */
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity .6s ease, transform .6s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P5R3N7TF" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- Meta Pixel Code (noscript) -->
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1195165865561232&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code (noscript) -->
+
+  <!-- ── NAV ──────────────────────────────────────────── -->
+  <nav class="nav" id="mainNav">
+    <div class="nav__inner">
+      <a href="#home" class="nav__logo" id="navLogo"
+        style="display:flex;align-items:center;opacity:0;pointer-events:none;transition:opacity 0.3s;"><img
+          src="./assets/logo-claro-JfPpapNI.png" alt="Nationwide Immigration LLC" style="height: 48px; width: auto;"></a>
+      <div class="nav__links">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#team">Team</a>
+        <a href="kelmer-neves/" class="kelmer-link">Kelmer Neves</a>
+        <a href="#partners">Partners</a>
+        <a href="#contact">Contact</a>
+        <a href="https://api.whatsapp.com/send/?phone=12028934273&text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20Nationwide%20Immigration.&type=phone_number&app_absent=0"
+          target="_blank" class="nav__cta">Talk to an Expert</a>
+      </div>
+
+      <div class="lang-dropdown" id="langDropdown">
+        <button class="lang-dropdown__toggle" id="langDropdownToggle" onclick="toggleLangDropdown(event)">
+          <i class="fas fa-globe"></i> Language <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="lang-dropdown__menu" id="langDropdownMenu">
+          <button class="lang-flag-btn" id="langBtn-en"
+            onclick="doGTranslate('en');closeLangDropdown();return false;"><img src="https://flagcdn.com/w20/us.png"
+              class="flag-icon" alt="EN"> English</button>
+          <button class="lang-flag-btn" id="langBtn-pt"
+            onclick="doGTranslate('pt');closeLangDropdown();return false;"><img src="https://flagcdn.com/w20/br.png"
+              class="flag-icon" alt="PT"> Português</button>
+          <button class="lang-flag-btn" id="langBtn-es"
+            onclick="doGTranslate('es');closeLangDropdown();return false;"><img src="https://flagcdn.com/w20/es.png"
+              class="flag-icon" alt="ES"> Español</button>
+          <button class="lang-flag-btn" id="langBtn-ko"
+            onclick="doGTranslate('ko');closeLangDropdown();return false;"><img src="https://flagcdn.com/w20/kr.png"
+              class="flag-icon" alt="KO"> 한국어</button>
+          <button class="lang-flag-btn" id="langBtn-uk"
+            onclick="doGTranslate('uk');closeLangDropdown();return false;"><img src="https://flagcdn.com/w20/ua.png"
+              class="flag-icon" alt="UK"> Українська</button>
+          <button class="lang-flag-btn" id="langBtn-ru"
+            onclick="doGTranslate('ru');closeLangDropdown();return false;"><img src="https://flagcdn.com/w20/ru.png"
+              class="flag-icon" alt="RU"> Русский</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- ── HERO ─────────────────────────────────────────── -->
+  <section id="home" class="hero">
+    <div class="hero__inner">
+
+      <div class="hero__content">
+        <img src="./assets/logo-claro-JfPpapNI.png" alt="Nationwide Immigration LLC" class="hero__logo">
+
+        <h1 class="hero__title">
+          Turn Your <span class="hl">Dreams</span><br>into Reality with Expert<br>Immigration Guidance
+        </h1>
+
+        <p class="hero__desc">
+          If you dream of living, working, or studying in the United States, our expert legal team is here to guide you
+          through every step of the immigration process — quickly, safely, and with personalized support.
+        </p>
+
+        <div class="hero__info-strip">
+          <div class="hero__info-icon"><img src="https://flagcdn.com/w40/us.png" style="width:24px; border-radius:2px;"
+              alt="USA"></div>
+          <div class="hero__info-text">We represent clients in all 50 states &nbsp;|&nbsp; 100% Professional Service
+          </div>
+        </div>
+
+        <div class="hero__cta-row">
+          <a href="https://api.whatsapp.com/send/?phone=12028934273&text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20Nationwide%20Immigration.&type=phone_number&app_absent=0"
+            target="_blank" class="btn btn--primary">
+            <i class="fab fa-whatsapp"></i> Talk to an Expert Now
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__visual">
+        <div class="hero__img-wrap">
+          <img src="./assets/Design-sem-nome-26-CDtKVci0.png" alt="Immigration Expert" class="hero__img">
+          <div class="hero__img-overlay"></div>
+        </div>
+
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ── SERVICES ─────────────────────────────────────── -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="services__header reveal">
+        <div class="pill-label">How We Can Help</div>
+        <h2 class="section-title">Our services cover every<br>immigration need</h2>
+        <p class="section-body">We provide comprehensive legal support tailored to your unique immigration journey —
+          from initial consultation to achieving your American dream.</p>
+      </div>
+
+      <div class="services__grid">
+
+        <div class="service-card reveal">
+          <div class="service-card__img-wrap">
+            <img src="./assets/photo-1589829545856-d10d557cf95f-BclKU2pF.jpg" alt="Immigration Lawyer">
+            <div class="service-card__img-overlay"></div>
+            <div class="service-card__badge"><i class="fas fa-user-tie"></i></div>
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Immigration Lawyer</h3>
+            <p class="service-card__desc">Expert legal representation for individuals, families, and businesses
+              navigating U.S. immigration law. From visa applications to court representation.</p>
+          </div>
+          <div class="service-card__footer">
+            <span class="service-card__num">01</span>
+          </div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-card__img-wrap">
+            <img src="./assets/photo-1450101499163-c8848c66ca85-DFZ8oHeE.jpg" alt="Immigration Services">
+            <div class="service-card__img-overlay"></div>
+            <div class="service-card__badge"><i class="fas fa-file-contract"></i></div>
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Immigration Services</h3>
+            <p class="service-card__desc">Comprehensive immigration solutions including work visas, family petitions,
+              adjustment of status, waivers, and legal appeals customized to your situation.</p>
+          </div>
+          <div class="service-card__footer">
+            <span class="service-card__num">02</span>
+          </div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-card__img-wrap">
+            <img src="./assets/photo-1521791136064-7986c2920216-CQXqHBzQ.jpg" alt="Citizenship">
+            <div class="service-card__img-overlay"></div>
+            <div class="service-card__badge"><i class="fas fa-certificate"></i></div>
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Citizenship &amp; Naturalization</h3>
+            <p class="service-card__desc">Complete guidance from permanent residency to U.S. citizenship. We ensure
+              you're fully prepared for every stage of the naturalization process.</p>
+          </div>
+          <div class="service-card__footer">
+            <span class="service-card__num">03</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ── TEAM ──────────────────────────────────────────── -->
+  <section id="team" class="team">
+    <div class="container--wide">
+      <div class="team__header reveal">
+        <div class="pill-label">Meet Our Experts</div>
+        <h2 class="section-title section-title--white">Meet Our Team</h2>
+        <p class="section-body">Our experienced team of immigration professionals is dedicated to helping you achieve
+          your American dream.</p>
+      </div>
+
+      <div class="team__track-wrap">
+        <div class="team__track" id="teamCarousel">
+
+          <div class="team-card">
+            <div class="team-card__photo-wrap">
+              <img src="./assets/Design-sem-nome-26-CDtKVci0.png" alt="Kelmer Neves" class="team-card__photo">
+              <div class="team-card__photo-overlay"></div>
+            </div>
+            <div class="team-card__body">
+              <div class="team-card__name">Kelmer Neves</div>
+              <div class="team-card__role">CEO and Founder</div>
+              <div class="team-card__divider"></div>
+              <div class="team-card__desc">
+                <span class="description-short">Born in Cabo Frio, Rio de Janeiro, in 1976, Kelmer Neves immigrated to
+                  the United States in 1999 and fought his case for 15 years (Neves v. Holder). He became a U.S. citizen
+                  in 2019 and speaks English, Portuguese and Spanish.</span>
+                <a class="read-more-btn kelmer-link" href="kelmer-neves/">Read More <i
+                    class="fas fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="team-card isabela-card" data-gender="female">
+            <div class="team-card__photo-wrap">
+              <img src="./assets/WhatsApp-Image-2025-06-13-at-19.18.20-Co4E6ac6.jpeg" alt="Isabela Brasil do Amaral"
+                class="team-card__photo">
+              <div class="team-card__photo-overlay"></div>
+            </div>
+            <div class="team-card__body">
+              <div class="team-card__name isabela-name">Isabela Brasil do Amaral</div>
+              <div class="team-card__role isabela-role">Attorney</div>
+              <div class="team-card__divider"></div>
+              <div class="team-card__desc">
+                <span class="description-short isabela-short">Attorney licensed in Washington D.C. and authorized to
+                  represent clients in the area of immigration throughout the United States...</span>
+                <span class="description-full isabela-full">Attorney licensed in Washington D.C. and authorized to
+                  represent clients in the area of immigration throughout the United States. Isabela obtained her
+                  bachelor's degree in law from UniChristys University in Fortaleza, Ceará and her master's degree from
+                  the University of Dayton, Ohio.</span>
+                <button class="read-more-btn" onclick="toggleDescription(this)">Read More <i
+                    class="fas fa-chevron-right"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="team-card">
+            <div class="team-card__photo-wrap">
+              <img src="./assets/daiana-Cdcmc2Z7.jpeg" alt="Daiana Carvalho" class="team-card__photo"
+                style="object-position: center 30%;">
+              <div class="team-card__photo-overlay"></div>
+            </div>
+            <div class="team-card__body">
+              <div class="team-card__name">Daiana Carvalho</div>
+              <div class="team-card__role">Administrative Assistant &amp; Social Media Manager</div>
+              <div class="team-card__divider"></div>
+              <div class="team-card__desc">
+                <span class="description-short">Daiana has worked as an Administrative Assistant and Social Media
+                  Manager since 2020 alongside Kelmer Neves...</span>
+                <span class="description-full">Daiana Carvalho has worked as an Administrative Assistant and Social
+                  Media Manager since 2020 alongside Kelmer Neves. Over the years, she has actively collaborated with
+                  the administrative and operational sectors, always valuing organization and agility in the company's
+                  internal processes and social media. She works on planning, creating and managing publications,
+                  campaigns and interactions on our digital channels, with the aim of strengthening the company's online
+                  presence and contributing to the growth of our results. She specializes in customer service and works
+                  to provide efficient and agile customer service. She is responsible for providing administrative
+                  support, organizing internal documents and ensuring that processes and forms occur in an organized and
+                  effective manner, thus contributing to the smooth running of the company. Daiana takes care of each
+                  client, closely monitoring each stage of the immigration process.</span>
+                <button class="read-more-btn" onclick="toggleDescription(this)">Read More <i
+                    class="fas fa-chevron-right"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="team-card">
+            <div class="team-card__photo-wrap">
+              <img src="./assets/dianaespinoza-DC_gofhg.jpeg" alt="Diana Espinoza" class="team-card__photo">
+              <div class="team-card__photo-overlay"></div>
+            </div>
+            <div class="team-card__body">
+              <div class="team-card__name">Diana Espinoza</div>
+              <div class="team-card__role">Paralegal</div>
+              <div class="team-card__divider"></div>
+              <div class="team-card__desc">
+                <span class="description-short">Diana Espinoza is a dedicated legal professional committed to providing
+                  compassionate, diligent, and effective representation to every client she serves...</span>
+                <span class="description-full">Diana Espinoza is a dedicated legal professional committed to providing
+                  compassionate, diligent, and effective representation to every client she serves. She holds two
+                  bachelor's degrees in Public Service and Public Policy and in Justice Studies, earned in just four
+                  years, and is pursuing a Master's degree in Public Policy to further strengthen her advocacy and
+                  analytical skills. As the daughter of immigrants from Mexico, Diana was raised with a deep
+                  appreciation for hard work, perseverance, and integrity. These values shape her approach to the law
+                  and fuel her passion for civil rights, immigrant justice, and political advocacy. Diana understands
+                  that legal challenges can be deeply personal and often overwhelming. She is committed to guiding
+                  clients with empathy, clarity, and unwavering dedication, ensuring they feel supported and informed in
+                  every step of the legal process. Her work is driven not only by a strong academic foundation, but by a
+                  genuine desire to make a meaningful difference in the lives of those she represents.</span>
+                <button class="read-more-btn" onclick="toggleDescription(this)">Read More <i
+                    class="fas fa-chevron-right"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="team-card" data-gender="female">
+            <div class="team-card__photo-wrap">
+              <img src="./assets/Lei-yX3laZFd.jpeg" alt="Leidiene Maciel" class="team-card__photo">
+              <div class="team-card__photo-overlay"></div>
+            </div>
+            <div class="team-card__body">
+              <div class="team-card__name">Leidiene Maciel</div>
+              <div class="team-card__role">Paralegal</div>
+              <div class="team-card__divider"></div>
+              <div class="team-card__desc">
+                <span class="description-short">Leidiene Maciel is a dedicated paralegal with a passion for immigration
+                  law and a strong commitment to helping individuals and families navigate the complexities of the U.S.
+                  immigration system...</span>
+                <span class="description-full">Leidiene Maciel is a dedicated paralegal with a passion for immigration
+                  law and a strong commitment to helping individuals and families navigate the complexities of the U.S.
+                  immigration system. With hands-on experience in immigration matters and exceptional attention to
+                  detail, she provides legal support with professionalism, empathy, and integrity. Her experience
+                  includes family-based petitions, adjustment of status applications, asylum cases, humanitarian visas,
+                  VAWA petitions, SIJS matters, and other immigration-related processes. Fluent in Portuguese, English,
+                  and Spanish, Leidiene effectively communicates with clients from diverse backgrounds and is committed
+                  to ensuring they feel informed, supported, and understood throughout their legal journey. She believes
+                  that every immigration case represents a unique life story and deserves personalized, compassionate
+                  assistance. Her mission is to provide knowledgeable guidance and human-centered support, empowering
+                  clients through every step of the immigration process.</span>
+                <button class="read-more-btn" onclick="toggleDescription(this)">Read More <i
+                    class="fas fa-chevron-right"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="team-card" data-gender="female">
+            <div class="team-card__photo-wrap">
+              <img src="./assets/Maria%20Claudia-Yfaw2xrB.jpeg" alt="Maria Claudia de Souza" class="team-card__photo">
+              <div class="team-card__photo-overlay"></div>
+            </div>
+            <div class="team-card__body">
+              <div class="team-card__name">Maria Claudia de Souza</div>
+              <div class="team-card__role">Paralegal</div>
+              <div class="team-card__divider"></div>
+              <div class="team-card__desc">
+                <span class="description-short">Maria Claudia de Souza is a dedicated paralegal with a passion for helping individuals and families navigate the U.S. immigration system. Originally from Brazil, she has spent many years assisting...</span>
+                <span class="description-full">Maria Claudia de Souza is a dedicated paralegal with a passion for helping individuals and families navigate the U.S. immigration system. Originally from Brazil, she has spent many years assisting clients from diverse backgrounds with immigration matters, document preparation, translations, and case management.<br><br>As the founder of Ledger Life Solutions, Maria has built a reputation for providing compassionate, personalized support while guiding clients through complex legal processes. She is currently pursuing a degree in Legal Studies to further strengthen her legal knowledge and advocacy skills.<br><br>Fluent in English, Portuguese, and Spanish, Maria understands the challenges immigrants face because she has worked closely with individuals and families from diverse cultural backgrounds throughout her career. She believes every client deserves to be treated with dignity, respect, and honesty, and she is committed to ensuring they feel informed and supported every step of the way.<br><br>Maria’s combination of practical experience, dedication to client service, multilingual communication skills, and commitment to continued education allows her to provide exceptional support to attorneys and meaningful assistance to those seeking a better future in the U.S.</span>
+                <button class="read-more-btn" onclick="toggleDescription(this)">Read More <i
+                    class="fas fa-chevron-right"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="team-card" data-gender="female">
+            <div class="team-card__photo-wrap">
+              <img src="./assets/Jeniffer%20Rabello%20Doxsey-TRXc1YqO.jpeg" alt="Jeniffer Rabello Doxsey" class="team-card__photo">
+              <div class="team-card__photo-overlay"></div>
+            </div>
+            <div class="team-card__body">
+              <div class="team-card__name">Jeniffer Rabello Doxsey</div>
+              <div class="team-card__role">Paralegal</div>
+              <div class="team-card__divider"></div>
+              <div class="team-card__desc">
+                <span class="description-short">Jeniffer Rabello Doxsey is a lawyer and a graduate of Multivix University. She holds a specialization in Civil Procedural Law and is currently pursuing...</span>
+                <span class="description-full">Jeniffer Rabello Doxsey is a lawyer and a graduate of Multivix University. She holds a specialization in Civil Procedural Law and is currently pursuing a Master of Laws (LL.M.) in International Law at Suffolk University Law School in Boston, Massachusetts.<br><br>Admitted to the Bar (OAB) in 2012, she continued her family's legacy by taking over the law firm, establishing a practice grounded in ethics, technical excellence, and a commitment to providing personalized, client-centered service.<br><br>Passionate about the legal profession, she believes that the law is a powerful tool for transforming lives, protecting rights, and promoting justice. Throughout her career, she has found that seeking legal solutions and advocating for her clients' interests is not merely a profession, but a true life purpose.<br><br>Characterized by dedication, responsibility, and a commitment to continuous professional development, Jeniffer combines the experience gained in Brazil with the international perspective developed during her studies in the United States. This enables her to provide strategic, up-to-date legal services focused on achieving results.<br><br>Her primary commitment is to use the law as an instrument of transformation, security, and justice for every individual who places their trust in her work.</span>
+                <button class="read-more-btn" onclick="toggleDescription(this)">Read More <i
+                    class="fas fa-chevron-right"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="team-card" data-gender="male">
+            <div class="team-card__photo-wrap">
+              <img src="./assets/Felipe%20Gallo-CSqqx2BH.jpeg" alt="Felipe Gallo" class="team-card__photo">
+              <div class="team-card__photo-overlay"></div>
+            </div>
+            <div class="team-card__body">
+              <div class="team-card__name">Felipe Gallo</div>
+              <div class="team-card__role">Paralegal</div>
+              <div class="team-card__divider"></div>
+              <div class="team-card__desc">
+                <span class="description-short">Felipe Gallo is a lawyer licensed in Brazil with over 20 years of experience. A graduate of the Rio de Janeiro State University (UERJ) Law School, he practices...</span>
+                <span class="description-full">Felipe Gallo is a lawyer licensed in Brazil with over 20 years of experience. A graduate of the Rio de Janeiro State University (UERJ) Law School, he practices immigration law and specializes in EB-1 and EB-2 NIW visa petitions. Additionally, he has extensive experience in civil, real estate, corporate, and family law matters in Brazil.</span>
+                <button class="read-more-btn" onclick="toggleDescription(this)">Read More <i
+                    class="fas fa-chevron-right"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="team-card">
+            <div class="team-card__photo-wrap">
+              <img src="./assets/kyuinlee2-CpTJb2fR.jpeg" alt="KyuIn Lee" class="team-card__photo">
+              <div class="team-card__photo-overlay"></div>
+            </div>
+            <div class="team-card__body">
+              <div class="team-card__name">KyuIn Lee</div>
+              <div class="team-card__role">Paralegal</div>
+              <div class="team-card__divider"></div>
+              <div class="team-card__desc">
+                <span class="description-short">KyuIn Lee grew up watching her first generation immigrant parents
+                  navigate the U.S. immigration system her entire childhood...</span>
+                <span class="description-full">KyuIn Lee grew up watching her first generation immigrant parents
+                  navigate the U.S. immigration system her entire childhood. Filing paperwork, studying for the
+                  citizenship test, waiting, hoping, all while trying to raise a family in a new country, they were able
+                  to achieve their goal, but KyuIn never lost sight of the hardships she witnessed her family go
+                  through. This personal, direct experience led her to develop a strong passion in studying law. Raised
+                  in southern Georgia and spending her teens in southern California, KyuIn came of age in diverse
+                  immigrant and multi-cultural communities. She witnessed families’ troubles with the fear of
+                  deportation, language barriers, and bureaucratic confusion kept neighbors from accessing basic rights.
+                  At the same time, her family extends beyond South Korea. Having Korean-Guatemalan relatives in
+                  Guatemala taught her that immigration is shared across the globe. Such experiences drive her
+                  commitment and passion to help keep the law precise and just. KyuIn is a double major in Law, Public
+                  Policy, and Society, and in Religious Studies, and intends to transfer to the University of Chicago
+                  upon completing her two associates. Her academic work is rooted in questions of justice, belonging,
+                  and institutional change. She brings prior experience with legal paperwork, equipping her with
+                  necessary skills. Above all, KyuIn is driven by ambition and empathy. Her goal is to help others do
+                  what her parents had the privilege of doing.</span>
+                <button class="read-more-btn" onclick="toggleDescription(this)">Read More <i
+                    class="fas fa-chevron-right"></i></button>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="team-card">
+            <div class="team-card__photo-wrap">
+              <img src="./assets/Maksym%20Budiy-P_Mu_kyL.jpeg" alt="Maksym Budiy" class="team-card__photo">
+              <div class="team-card__photo-overlay"></div>
+            </div>
+            <div class="team-card__body">
+              <div class="team-card__name">Maksym Budiy</div>
+              <div class="team-card__role">Paralegal</div>
+              <div class="team-card__divider"></div>
+              <div class="team-card__desc">
+                <span class="description-short">Maksym Budiy is a highly motivated paralegal with a strong commitment to
+                  justice and a deep understanding of the challenges faced by immigrants navigating the U.S. legal
+                  system...</span>
+                <span class="description-full">Maksym Budiy is a highly motivated paralegal with a strong commitment to
+                  justice and a deep understanding of the challenges faced by immigrants navigating the U.S. legal
+                  system. Drawing on his own experience as an immigrant, Maksym brings a unique perspective and genuine
+                  empathy to his work. He is dedicated to providing thorough, accurate, and compassionate support to
+                  every client, ensuring they feel informed and confident throughout each step of their immigration
+                  journey.</span>
+                <button class="read-more-btn" onclick="toggleDescription(this)">Read More <i
+                    class="fas fa-chevron-right"></i></button>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          <div class="team-card">
+            <div class="team-card__photo-wrap">
+              <img src="./assets/Kyrylo%20Busorgin-B9O-AHyx.jpeg" alt="Kyrylo Busorgin" class="team-card__photo">
+              <div class="team-card__photo-overlay"></div>
+            </div>
+            <div class="team-card__body">
+              <div class="team-card__name">Kyrylo Busorgin</div>
+              <div class="team-card__role">Paralegal</div>
+              <div class="team-card__divider"></div>
+              <div class="team-card__desc">
+                <span class="description-short">As a first-generation asylee from Ukraine, Kyrylo Busorgin is deeply
+                  committed to helping newcomers navigate the U.S. immigration process...</span>
+                <span class="description-full">As a first-generation asylee from Ukraine, Kyrylo Busorgin is deeply
+                  committed to helping newcomers navigate the U.S. immigration process. Drawing on his own experience
+                  completing rigorous paperwork, preparing for interviews, and navigating the various requirements of
+                  the immigration system as a young adult, he brings a personal perspective and genuine empathy to his
+                  work. This commitment is reflected in his studies as a pre-law student at Emory University in Atlanta,
+                  GA, where he is pursuing Bachelor’s degrees in History and Philosophy, Politics, and Law (PPL).
+                  Understanding that every immigration journey is deeply personal and often complex, he is dedicated to
+                  providing holistic support that helps clients feel informed and confident throughout every stage of
+                  the process.</span>
+                <button class="read-more-btn" onclick="toggleDescription(this)">Read More <i
+                    class="fas fa-chevron-right"></i></button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="team__controls">
+        <button class="carousel-btn" onclick="scrollCarousel('left')"><i class="fas fa-chevron-left"></i></button>
+        <button class="carousel-btn" onclick="scrollCarousel('right')"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ── TESTIMONIALS ──────────────────────────────────── -->
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <div class="testimonials__header reveal">
+        <div class="pill-label">Client Success Stories</div>
+        <h2 class="section-title">What our clients say about us</h2>
+        <p class="section-body">Real stories from real people who achieved their American dream with our expert legal
+          guidance and support.</p>
+      </div>
+
+      <div class="testimonials__grid">
+
+        <div class="testi-card reveal">
+          <div class="testi-card__stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="testi-card__quote">The team helped me navigate the complex process of obtaining my work visa. Their
+            expertise and dedication made what seemed impossible become reality. I'm now living my dream in the United
+            States!</p>
+          <div class="testi-card__author">
+            <div class="testi-card__avatar">M</div>
+            <div>
+              <div class="testi-card__name">Maria Rodriguez</div>
+              <div class="testi-card__case">H-1B Work Visa</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card reveal">
+          <div class="testi-card__stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="testi-card__quote">After years of uncertainty, they helped reunite our family through the
+            family-based immigration process. Their compassionate approach and legal expertise made all the difference.
+          </p>
+          <div class="testi-card__author">
+            <div class="testi-card__avatar">J</div>
+            <div>
+              <div class="testi-card__name">James Chen</div>
+              <div class="testi-card__case">Family Reunification</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card reveal">
+          <div class="testi-card__stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="testi-card__quote">From green card to citizenship, they guided me through every step. Professional,
+            knowledgeable, and always available to answer my questions. Highly recommended!</p>
+          <div class="testi-card__author">
+            <div class="testi-card__avatar">A</div>
+            <div>
+              <div class="testi-card__name">Ana Silva</div>
+              <div class="testi-card__case">Naturalization Process</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ── PARTNERS ──────────────────────────────────────── -->
+  <section id="partners" class="partners">
+    <div class="container--wide">
+      <div class="partners__header reveal">
+        <div class="pill-label">Global Network</div>
+        <h2 class="section-title">International Partners</h2>
+        <p class="section-body">Through partnerships with law firms, we also assist clients in 11 countries worldwide.
+        </p>
+      </div>
+
+      <div class="partners__track" id="partnersCarousel">
+
+        <div class="partner-card" data-gender="female">
+          <div class="partner-card__img-wrap">
+            <img src="./assets/Design-sem-nome-Bwp5nS_j.jpg" alt="Taise Azevedo" class="partner-card__img">
+            <div class="partner-card__img-overlay"></div>
+            <div class="partner-card__country"><img src="https://flagcdn.com/w20/ie.png" class="flag-icon"
+                alt="Ireland"> Ireland</div>
+          </div>
+          <div class="partner-card__body">
+            <div class="partner-card__name">Taise Azevedo</div>
+            <div class="partner-card__desc">
+              <span class="description-short">Taise Azevedo is currently a partner at McGrath Mullan LLP Solicitors, an
+                Irish law firm founded in 1999, which has become a cornerstone of legal expertise in Dublin...</span>
+              <span class="description-full">Taise Azevedo is currently a partner at McGrath Mullan LLP Solicitors, an
+                Irish law firm founded in 1999, which has become a cornerstone of legal expertise in Dublin. The firm
+                offers a comprehensive range of legal services in both private and commercial law. With a team of ten
+                experienced solicitors, they specialise in areas such as Immigration Law, Personal Injury, Commercial
+                Property, Family Law, and Probate. Taise is a qualified lawyer in Brazil since 2017, in Portugal since
+                2020, in Ireland since 2021 and in England and Wales since 2023. Taise specialises in Immigration Law.
+                She is the Director of the Brazilian Lawyers Association (ABA) in Ireland since 2022. She is more than
+                happy to discuss any immigration matters with clients in English or Portuguese. Taise is also the
+                co-founder of a mentorship programme that assists other Brazilian lawyers to practise in Ireland and
+                Europe (Passaporte Jurídico).</span>
+              <button class="read-more-btn" onclick="togglePartnerDescription(this)">Read More <i
+                  class="fas fa-chevron-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="partner-card" data-gender="female">
+          <div class="partner-card__img-wrap">
+            <img src="./assets/Design-sem-nome-24-Ck_dI7Fx.png" alt="Gabriela Cardoso" class="partner-card__img">
+            <div class="partner-card__img-overlay"></div>
+            <div class="partner-card__country"><img src="https://flagcdn.com/w20/gb.png" class="flag-icon" alt="UK">
+              United Kingdom</div>
+          </div>
+          <div class="partner-card__body">
+            <div class="partner-card__name">Gabriela Cardoso</div>
+            <div class="partner-card__desc">
+              <span class="description-short">Versatile lawyer, legal columnist and successful mentor with degrees in
+                Business Administration, Accounting and Law in Brazil, also working in the United Kingdom...</span>
+              <span class="description-full">Versatile lawyer, legal columnist and successful mentor. She is an
+                exceptional professional who has paved a remarkable path in her career. With an impressive academic
+                background, she holds degrees in Business Administration, Accounting and Law in Brazil. In addition, she
+                works as a lawyer in the United Kingdom, standing out in the areas of Family and Succession Law, as well
+                as in the English real estate market, where she is also a successful investor. Her constant search for
+                improvement led her to obtain a postgraduate degree in Real Estate Law, further deepening her knowledge
+                in an area crucial to her professional and investment activities. In addition to her achievements in the
+                legal and real estate world, she is a legal columnist for Wise Magazine and Fama Magazine, contributing
+                relevant analysis and content to the legal field. She also plays a key role as a mentor to lawyers who
+                wish to follow in her footsteps and practice in Europe and the United Kingdom. Her guidance and
+                experience are invaluable to those seeking to expand their careers internationally. In short, she is a
+                versatile lawyer who excels in several areas of law, including family law, inheritance law, real estate
+                law and immigration law. Her journey of success is inspiring, and her dedication to mentoring other
+                professionals is commendable. She is an exemplary figure in the legal world and continues to leave a
+                positive mark wherever she goes.</span>
+              <button class="read-more-btn" onclick="togglePartnerDescription(this)">Read More <i
+                  class="fas fa-chevron-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="partner-card">
+          <div class="partner-card__img-wrap">
+            <img src="./assets/Design-sem-nome-1-DBGmWyOJ.jpg" alt="Wellington Luz" class="partner-card__img">
+            <div class="partner-card__img-overlay"></div>
+            <div class="partner-card__country"><img src="https://flagcdn.com/w20/pt.png" class="flag-icon"
+                alt="Portugal"> Portugal</div>
+          </div>
+          <div class="partner-card__body">
+            <div class="partner-card__name">Wellington Luz</div>
+            <div class="partner-card__desc">
+              <span class="description-short">Wellington Luz is a lawyer licensed in Brazil and Portugal, specializing
+                in Portuguese visas, nationality, marriage transcription, and immigrant legalization...</span>
+              <span class="description-full">Wellington Luz is a lawyer licensed in Brazil and Portugal, specializing in
+                Portuguese visas, nationality, marriage transcription, and immigrant legalization. His firm operates
+                internationally, assisting clients with legal processes across borders.</span>
+              <button class="read-more-btn" onclick="togglePartnerDescription(this)">Read More <i
+                  class="fas fa-chevron-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="partner-card">
+          <div class="partner-card__img-wrap">
+            <img src="./assets/Design-sem-nome-22-B1570M6V.png" alt="Isadora Alvarenga" class="partner-card__img">
+            <div class="partner-card__img-overlay"></div>
+            <div class="partner-card__country"><img src="https://flagcdn.com/w20/fr.png" class="flag-icon" alt="France">
+              France</div>
+          </div>
+          <div class="partner-card__body">
+            <div class="partner-card__name">Isadora Alvarenga</div>
+            <div class="partner-card__desc">
+              <span class="description-short">Isadora Alvarenga is an international lawyer registered with the Paris Bar
+                Association and the São Paulo Bar Association...</span>
+              <span class="description-full">Isadora Alvarenga is an international lawyer registered with the Paris Bar
+                Association and the São Paulo Bar Association. With a law degree from the University of São Paulo (USP)
+                and a master's degree from the Sorbonne University, she has solid experience in both the Brazilian and
+                French legal systems, and has also worked on cases of international importance. After working for
+                renowned law firms in Paris and São Paulo, in 2021, Isadora founded her own firm in the heart of Paris,
+                with the aim of offering personalized legal services to the Brazilian community and foreigners living in
+                France. Her work stands out for its human approach and in-depth knowledge of transnational legal issues.
+                Her practice focuses mainly on the areas of Foreigners' Law and Family Law. Among the services she
+                offers are applications for visas and residence permits (titres de séjour), regularization processes,
+                challenges to obligations to leave French territory, urgent measures and appeals in immigration cases,
+                as well as divorce proceedings, custody disputes and alimony. Fluent in French, English and Portuguese,
+                Isadora's mission is to make the law more accessible, clear and effective for her clients.</span>
+              <button class="read-more-btn" onclick="togglePartnerDescription(this)">Read More <i
+                  class="fas fa-chevron-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="partner-card">
+          <div class="partner-card__img-wrap">
+            <img src="./assets/Design-sem-nome-36-yFJ8VMa3.png" alt="Luciano Carrasqueira" class="partner-card__img">
+            <div class="partner-card__img-overlay"></div>
+            <div class="partner-card__country"><img src="https://flagcdn.com/w20/de.png" class="flag-icon"
+                alt="Germany"> Germany</div>
+          </div>
+          <div class="partner-card__body">
+            <div class="partner-card__name">Luciano Carrasqueira</div>
+            <div class="partner-card__desc">
+              <span class="description-short">Attorney Luciano Carrasqueira, licensed in Germany, Brazil, and Portugal,
+                practices international, immigration, and labor law...</span>
+              <span class="description-full">Attorney Luciano Carrasqueira, licensed in Germany, Brazil, and Portugal,
+                practices international, immigration, and labor law. Since 2020, he has headed Kanzlei Carrasqueira, a
+                Hamburg-based legal boutique focused on serving Brazilians and Portuguese-speaking clients in Europe, as
+                well as German companies with interests in Brazil.</span>
+              <button class="read-more-btn" onclick="togglePartnerDescription(this)">Read More <i
+                  class="fas fa-chevron-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="partner-card">
+          <div class="partner-card__img-wrap">
+            <img src="./assets/Design-sem-nome-34-BAb22bk-.png" alt="Priscilla de Bruyn" class="partner-card__img">
+            <div class="partner-card__img-overlay"></div>
+            <div class="partner-card__country"><img src="https://flagcdn.com/w20/nl.png" class="flag-icon"
+                alt="Netherlands"> Netherlands</div>
+          </div>
+          <div class="partner-card__body">
+            <div class="partner-card__name">Priscilla de Bruyn</div>
+            <div class="partner-card__desc">
+              <span class="description-short">Priscilla de Bruyn is a lawyer licensed in Brazil and Portugal, with
+                international experience in immigration and European law...</span>
+              <span class="description-full">Priscilla de Bruyn is a lawyer licensed in Brazil and Portugal, with
+                international experience in immigration and European law, having lived and worked in Brazil, the US, the
+                UK, and the Netherlands. She is the founder of Lex Brasil Advogados and Lex Braxis, consultancy firms
+                specializing in European law and immigration, guiding Brazilians and foreigners who wish to live, work,
+                or establish businesses in the Netherlands and Portugal. With expertise in Technology Law and Data
+                Privacy, and holding international certifications (CIPP/E, CIPM, FIP, CSPO), she combines global
+                experience and a multicultural perspective to provide personalized and efficient legal solutions. She is
+                pleased to assist clients with immigration matters in English, Portuguese, and Spanish.</span>
+              <button class="read-more-btn" onclick="togglePartnerDescription(this)">Read More <i
+                  class="fas fa-chevron-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="partner-card">
+          <div class="partner-card__img-wrap">
+            <img src="./assets/Design-sem-nome-23-DajsXjrz.png" alt="Raffaella Lauricella" class="partner-card__img">
+            <div class="partner-card__img-overlay"></div>
+            <div class="partner-card__country"><img src="https://flagcdn.com/w20/it.png" class="flag-icon" alt="Italy">
+              Italy</div>
+          </div>
+          <div class="partner-card__body">
+            <div class="partner-card__name">Raffaella Lauricella</div>
+            <div class="partner-card__desc">
+              <span class="description-short">Raffaella is a lawyer with consolidated experience in administrative law,
+                military law, family law and immigration...</span>
+              <span class="description-full">Raffaella is a lawyer with consolidated experience in administrative law,
+                military law, family law and immigration. After a solid legal education and years of practice alongside
+                public entities, companies and individuals, she have built a law firm oriented towards excellence, where
+                precision, confidentiality and strategy are at the heart of every assignment. During her career, she has
+                supported institutions such as ANCI, represented members of the Armed Forces in high-profile cases and
+                provided assistance in delicate family and international mobility matters. She also offers targeted
+                advice to public figures and institutional figures, taking care of every legal aspect with attention to
+                reputational and personal implications. She works with a solid network of collaborators and
+                professionals, ensuring timely and complete legal support throughout the national territory and in
+                Europe. Her goal? To offer tailor-made solutions that don't just respond to a problem, but anticipate
+                it.</span>
+              <button class="read-more-btn" onclick="togglePartnerDescription(this)">Read More <i
+                  class="fas fa-chevron-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="partner-card">
+          <div class="partner-card__img-wrap">
+            <img src="./assets/WhatsApp-Image-2025-06-12-at-20.25.57-CPse7NG1.jpeg" alt="Monica Fernandes"
+              class="partner-card__img">
+            <div class="partner-card__img-overlay"></div>
+            <div class="partner-card__country"><img src="https://flagcdn.com/w20/au.png" class="flag-icon"
+                alt="Australia"> Australia</div>
+          </div>
+          <div class="partner-card__body">
+            <div class="partner-card__name">Monica Fernandes</div>
+            <div class="partner-card__desc">
+              <span class="description-short">Monica is a legal practitioner admitted to the Supreme Court of Queensland
+                and the High Court of Australia...</span>
+              <span class="description-full">Monica is a legal practitioner admitted to the Supreme Court of Queensland
+                and the High Court of Australia. She holds a Bachelor of Laws (Honours), a Graduate Diploma of Legal
+                Practice, a Graduate Certificate in Migration Law, as well as a Bachelor of Marketing and a Master's
+                Degree in Marketing Communications. Monica is a solicitor associate with the firm. Monica acts in
+                criminal legal matters in the Queensland Magistrates Court and instructs in District Court matters and
+                in family law matters in the Federal Circuit and Family Court of Australia. Her experience includes
+                prison visits, attending clients on arrest, bail submissions as well as commercial matters. Monica is
+                also a registered migration agent (MARN 1463596) and an esteemed member of the Migration Institute of
+                Australia and the Queensland Law Society. Since 2004, she has been dedicated to the field of Migration
+                Law. Her expertise encompasses a wide range of Australian visa applications, including
+                employer-sponsored visas, partner visas, family visas, general skilled migration visas, graduate visas,
+                citizenship applications, student visas and court appeals.</span>
+              <button class="read-more-btn" onclick="togglePartnerDescription(this)">Read More <i
+                  class="fas fa-chevron-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="partner-card">
+          <div class="partner-card__img-wrap">
+            <img src="./assets/Design-sem-nome-3-BhjbNlXA.jpg" alt="Tetsuya Lida" class="partner-card__img">
+            <div class="partner-card__img-overlay"></div>
+            <div class="partner-card__country"><img src="https://flagcdn.com/w20/jp.png" class="flag-icon" alt="Japan">
+              Japan</div>
+          </div>
+          <div class="partner-card__body">
+            <div class="partner-card__name">Tetsuya Lida</div>
+            <div class="partner-card__desc">
+              <span class="description-short">After studying law at Waseda University, he worked in two Tokyo-based law
+                firms. In 2004 he founded In Control Legal Support Services...</span>
+              <span class="description-full">After studying law at Waseda University, he worked in two Tokyo-based law
+                firms. In 2004. He founded In Control Legal Support Services, which focuses on legal support services
+                for foreign businesses launching and managing businesses in Japan. He has assisted more than 500 foreign
+                businesses in setting up subsidiaries/branches in Japan, acquiring various business licenses, and
+                represented more than 10 thousands foreign nationals in obtaining a work visa. He is an advisor of
+                foreign business support departments of some governmental/non-profit organizations, and also acts as a
+                local director or representative in Japan for many foreign-owned subsidiaries/branches.</span>
+              <button class="read-more-btn" onclick="togglePartnerDescription(this)">Read More <i
+                  class="fas fa-chevron-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="partner-card" data-gender="female">
+          <div class="partner-card__img-wrap">
+            <img src="./assets/Design-sem-nome-33-Beylf_M-.png" alt="Patricia Martins" class="partner-card__img">
+            <div class="partner-card__img-overlay"></div>
+            <div class="partner-card__country"><img src="https://flagcdn.com/w20/ca.png" class="flag-icon" alt="Canada">
+              Canada</div>
+          </div>
+          <div class="partner-card__body">
+            <div class="partner-card__name">Patricia Martins</div>
+            <div class="partner-card__desc">
+              <span class="description-short">Licensed Brazilian lawyer registered with the Brazilian Bar Association
+                (OAB) in 1994, with over 30 years of legal experience...</span>
+              <span class="description-full">Patricia Martins Pereira — Licensed Brazilian lawyer registered with the
+                Brazilian Bar Association (OAB) in 1994, with over 30 years of legal experience. She works as an
+                International Legal Consultant in Canada, registered with the Canadian Bar Association in the province
+                of Ontario, and with the Law Society of Canada since 2017. Patricia earned her Bachelor of Laws degree
+                from the Catholic University of Goiânia - Goiás, an MBA (Master of Business Administration) from the
+                Getulio Vargas Foundation, Goiânia, a postgraduate degree in the Immigration Consultant Certification
+                Program from Humber College Toronto - Canada, and a postgraduate degree in the Paralegal Certification
+                Program.</span>
+              <button class="read-more-btn" onclick="togglePartnerDescription(this)">Read More <i
+                  class="fas fa-chevron-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="partner-card">
+          <div class="partner-card__img-wrap">
+            <img src="./assets/Frame-22-1-ClTqhqrl.jpg" alt="Christiane Cavalcante" class="partner-card__img">
+            <div class="partner-card__img-overlay"></div>
+            <div class="partner-card__country"><img src="https://flagcdn.com/w20/es.png" class="flag-icon" alt="Spain">
+              Spain</div>
+          </div>
+          <div class="partner-card__body">
+            <div class="partner-card__name">Christiane Cavalcante</div>
+            <div class="partner-card__desc">
+              <span class="description-short">Christiane Cavalcante is a lawyer specializing in Immigration Law,
+                focusing on residency, regularization, and mobility processes for Brazilians and foreigners in
+                Spain...</span>
+              <span class="description-full">Christiane Cavalcante is a lawyer specializing in Immigration Law, focusing
+                on residency, regularization, and mobility processes for Brazilians and foreigners in Spain. With solid
+                legal experience, strategic vision, and a humanized approach, she advises individuals and families at
+                all stages of the immigration process, offering legal security, planning, and personalized solutions.
+                She actively participates in international congresses and legislative updates, keeping her practice
+                aligned with the constant changes in immigration law. Her work is guided by ethics, technical
+                excellence, and a commitment to transforming life projects into real achievements, and her purpose is to
+                provide legal peace of mind to those who choose to start over in another country.</span>
+              <button class="read-more-btn" onclick="togglePartnerDescription(this)">Read More <i
+                  class="fas fa-chevron-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="partners__controls">
+        <button class="carousel-control-btn" onclick="scrollPartnersCarousel('left')"><i
+            class="fas fa-chevron-left"></i></button>
+        <button class="carousel-control-btn" onclick="scrollPartnersCarousel('right')"><i
+            class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" class="location">
+    <div class="container">
+
+      <div class="location__intro reveal">
+        <div class="pill-label location__pill">Our Offices</div>
+        <h2 class="location__title">
+          <i class="fas fa-map-marked-alt" style="color:var(--red-light);margin-right:.4rem;"></i>
+          Visit Our U.S. Offices or Connect Online
+        </h2>
+        <p class="location__desc-main">Get personalized support in a comfortable, accessible environment — online or in
+          person. Whether you prefer a face-to-face meeting at one of our offices or a virtual consultation, our team is
+          ready to guide you wherever you are.</p>
+
+        <div class="location__actions">
+          <a href="https://api.whatsapp.com/send/?phone=12028934273&text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20Nationwide%20Immigration.&type=phone_number&app_absent=0"
+            target="_blank" class="btn btn--primary">
+            <i class="fab fa-whatsapp"></i> Schedule Your Consultation
+          </a>
+        </div>
+      </div>
+
+      <div class="location__grid">
+        <!-- Office 1: Washington, D.C. -->
+        <div class="office-card reveal">
+          <div class="office-card__info">
+            <h3 class="office-card__title">
+              <i class="fas fa-landmark"></i> Washington, D.C. Office
+            </h3>
+            <p class="office-card__address">
+              Regus - Washington DC - 601 Pennsylvania Avenue, Washington, DC 20004
+            </p>
+          </div>
+          <div class="map-wrap">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.341382856451!2d-77.02306728818625!3d38.893307971607015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7cf31fc192f%3A0xb4d02f09e57a0dc1!2sRegus%20-%20Washington%20DC%20-%20601%20Pennsylvania%20Avenue!5e0!3m2!1spt-BR!2sbr!4v1749903561127!5m2!1spt-BR!2sbr"
+              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Office 2: Tampa, FL -->
+        <div class="office-card reveal">
+          <div class="office-card__info">
+            <h3 class="office-card__title">
+              <i class="fas fa-sun"></i> Tampa, FL Office
+            </h3>
+            <p class="office-card__address">
+              Regus - Tampa - One Urban Centre at Westshore - 4830 West Kennedy Blvd, Suite 600, Tampa, FL 33609
+            </p>
+          </div>
+          <div class="map-wrap">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3524.398696884639!2d-82.52735762392762!3d27.94639991275997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2c1c69994c653%3A0x6b447833214472f8!2sRegus%20-%20Tampa%2C%20One%20Urban%20Centre!5e0!3m2!1sen!2sus!4v1719324000000!5m2!1sen!2sus"
+              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Office 3: New Jersey -->
+        <div class="office-card reveal">
+          <div class="office-card__info">
+            <h3 class="office-card__title">
+              <i class="fas fa-city"></i> Mount Laurel Township, NJ Office
+            </h3>
+            <p class="office-card__address">
+              Regus Mount Laurel - 3000 Atrium Way 2nd Floor, Mount Laurel Township, NJ 08054, Estados Unidos
+            </p>
+          </div>
+          <div class="map-wrap">
+            <iframe
+              src="https://maps.google.com/maps?q=Regus%20Mount%20Laurel%20-%203000%20Atrium%20Way%2C%20Mt%20Laurel%20Township%2C%20NJ%2008054&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Office 4: Melbourne, FL -->
+        <div class="office-card reveal">
+          <div class="office-card__info">
+            <h3 class="office-card__title">
+              <i class="fas fa-umbrella-beach"></i> Melbourne, FL Office
+            </h3>
+            <p class="office-card__address">
+              Regus Melbourne - 3020 West New Haven Avenue 1st floor, Melbourne, FL 32904
+            </p>
+          </div>
+          <div class="map-wrap">
+            <iframe
+              src="https://maps.google.com/maps?q=Regus%20Melbourne%20-%203020%20West%20New%20Haven%20Avenue%201st%20floor%2C%20Melbourne%2C%20FL%2032904&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Office 5: Cape Cod, MA -->
+        <div class="office-card reveal">
+          <div class="office-card__info">
+            <h3 class="office-card__title">
+              <i class="fas fa-map-marker-alt"></i> Cape Cod, MA Office
+            </h3>
+            <p class="office-card__address">
+              Regus Cape Cod - 100 Independence Dr, Hyannis, MA 02601
+            </p>
+          </div>
+          <div class="map-wrap">
+            <iframe
+              src="https://maps.google.com/maps?q=100%20Independence%20Dr%2C%20Hyannis%2C%20MA%2002601&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Office 6: Boca Raton, FL -->
+        <div class="office-card reveal">
+          <div class="office-card__info">
+            <h3 class="office-card__title">
+              <i class="fas fa-map-marker-alt"></i> Boca Raton, FL Office
+            </h3>
+            <p class="office-card__address">
+              Regus Boca Raton - 2255 Glades Rd Ste 324A Boca Raton, FL 33431
+            </p>
+          </div>
+          <div class="map-wrap">
+            <iframe
+              src="https://maps.google.com/maps?q=Regus%20Boca%20Raton%20-%202255%20Glades%20Rd%20Ste%20324A%20Boca%20Raton%2C%20FL%2033431&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ── STORY ─────────────────────────────────────────── -->
+  <section class="story">
+    <div class="container">
+      <div class="story__inner">
+
+        <div class="reveal">
+          <div class="story__badge"><i class="fas fa-gavel"></i> Real Impact</div>
+          <h2 class="story__title">From Supreme Court Battle to Helping Immigrants</h2>
+          <p class="story__text">
+            Kelmer Neves spent 15 years in a legal battle that reached the United States Supreme Court. His case,
+            Neves v. Holder (1st Cir. 2010), addressed when federal courts can review denials of motions to reopen
+            deportation proceedings.
+          </p>
+          <p class="story__text"><a href="kelmer-neves/" class="kelmer-link"
+              style="color: var(--red); font-weight: 700;">Read Kelmer's story <i class="fas fa-arrow-right"></i></a></p>
+          <a href="https://api.whatsapp.com/send/?phone=12028934273&text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20Nationwide%20Immigration.&type=phone_number&app_absent=0"
+            target="_blank" class="btn btn--primary">
+            Talk to Our Team
+          </a>
+        </div>
+
+        <div class="reveal">
+          <div class="story__video-wrap">
+            <iframe src="https://www.youtube.com/embed/M-wQv9rGqvM?si=qzkKCS5bVSJzVpdT"
+              title="Kelmer Neves Immigration Documentary"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+          </div>
+          <div class="story__lang-btns">
+            <a href="https://www.youtube.com/watch?v=_vkMVYUb8Fg" target="_blank" class="lang-btn lang-btn--es">
+              <img src="https://flagcdn.com/w20/es.png" class="flag-icon" alt="ES"> Watch in Spanish
+            </a>
+            <a href="https://www.youtube.com/watch?v=xyqzn3drIlQ" target="_blank" class="lang-btn lang-btn--en">
+              <img src="https://flagcdn.com/w20/us.png" class="flag-icon" alt="EN"> Watch in English
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ── FOOTER ─────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+
+        <div>
+          <div class="footer__brand">
+            <img src="./assets/logo-claro-JfPpapNI.png" alt="Nationwide Immigration LLC"
+              style="height: 52px; width: auto; margin-bottom: 20px; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));">
+            <p class="footer__brand-desc">Expert immigration legal services across all 50 states. Turning dreams into
+              reality, one case at a time.</p>
+          </div>
+          <div class="footer__social">
+            <a href="https://www.facebook.com/imigrantespelomundo" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/nationwideimmigrationllc/" target="_blank"><i
+                class="fab fa-instagram"></i></a>
+            <a href="https://api.whatsapp.com/send/?phone=12028934273" target="_blank"><i
+                class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer__col-title">Quick Links</div>
+          <ul class="footer__links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="kelmer-neves/" class="kelmer-link">Kelmer Neves</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer__col-title">Services</div>
+          <ul class="footer__links">
+            <li><a href="#">Immigration Law</a></li>
+            <li><a href="#">Visa Applications</a></li>
+            <li><a href="#">Citizenship &amp; Naturalization</a></li>
+            <li><a href="#">Legal Representation</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer__col-title">Contact Info</div>
+          <div class="footer__contact">
+            <div class="footer__contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>601 Pennsylvania Avenue NW, South Building – Suite 900, Washington D.C.</span>
+            </div>
+            <div class="footer__contact-item">
+              <i class="fas fa-phone"></i>
+              <span>+1 (202)-893-4273</span>
+            </div>
+            <div class="footer__contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>contact@nationwideimmigrationllc.com</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div>&copy; 2025 Nationwide Immigration LLC — All rights reserved</div>
+      <div style="margin-top: 10px; font-size: 0.8rem; opacity: 0.8;">
+        Desenvolvido com 🩷 por <a href="https://studioeasy.com.br/" target="_blank"
+          style="text-decoration: underline; font-weight: 600;">Studio Easy</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ── SCRIPTS ────────────────────────────────────────── -->
+  <script>
+    // Language dropdown toggle
+    function toggleLangDropdown(e) {
+      e.stopPropagation();
+      document.getElementById('langDropdown').classList.toggle('open');
+    }
+    function closeLangDropdown() {
+      document.getElementById('langDropdown').classList.remove('open');
+    }
+    document.addEventListener('click', function (e) {
+      const dd = document.getElementById('langDropdown');
+      if (dd && !dd.contains(e.target)) dd.classList.remove('open');
+    });
+
+    // Highlight active language button
+    (function () {
+      const cookie = document.cookie.split('; ').find(r => r.startsWith('googtrans='));
+      let activeLang = 'en';
+      if (cookie) {
+        const m = cookie.match(/\/en\/([a-z]+)/);
+        if (m) activeLang = m[1];
+      }
+      document.addEventListener('DOMContentLoaded', function () {
+        const btn = document.getElementById('langBtn-' + activeLang);
+        if (btn) btn.classList.add('active');
+      });
+    })();
+    // Toggle read more/less for team cards
+    function toggleDescription(btn) {
+      const desc = btn.closest('.team-card__desc') || btn.parentElement;
+      const isExpanded = desc.classList.toggle('expanded');
+      btn.innerHTML = isExpanded
+        ? 'Read Less <i class="fas fa-chevron-up"></i>'
+        : 'Read More <i class="fas fa-chevron-right"></i>';
+    }
+
+    // Toggle read more/less for partner cards
+    function togglePartnerDescription(btn) {
+      const desc = btn.closest('.partner-card__desc') || btn.parentElement;
+      const isExpanded = desc.classList.toggle('expanded');
+      btn.innerHTML = isExpanded
+        ? 'Read Less <i class="fas fa-chevron-up"></i>'
+        : 'Read More <i class="fas fa-chevron-right"></i>';
+    }
+
+    // Team carousel
+    function scrollCarousel(dir) {
+      const el = document.getElementById('teamCarousel');
+      el.scrollBy({ left: dir === 'left' ? -344 : 344, behavior: 'smooth' });
+    }
+
+    // Partners carousel
+    function scrollPartnersCarousel(dir) {
+      const el = document.getElementById('partnersCarousel');
+      el.scrollBy({ left: dir === 'left' ? -304 : 304, behavior: 'smooth' });
+    }
+
+    // Scroll reveal
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+
+
+    // Gender correction for PT
+    function fixGender() {
+      const cookie = document.cookie.split('; ').find(row => row.startsWith('googtrans='));
+      const holdsPT = cookie && cookie.includes('/pt');
+
+      if (holdsPT) {
+        document.querySelectorAll('[data-gender="female"]').forEach(card => {
+          // Fix team card roles: Advogado → Advogada
+          const role = card.querySelector('.team-card__role');
+          if (role && role.textContent.includes('Advogado')) {
+            role.textContent = role.textContent.replace('Advogado', 'Advogada');
+          }
+
+          // Fix partner card descriptions: Advogado → Advogada, advogado → advogada
+          const pDesc = card.querySelector('.partner-card__desc');
+          if (pDesc) {
+            const walker = document.createTreeWalker(pDesc, NodeFilter.SHOW_TEXT, null, false);
+            let node;
+            while (node = walker.nextNode()) {
+              node.textContent = node.textContent
+                .replace(/\bAdvogado\b/g, 'Advogada')
+                .replace(/\badvogado\b/g, 'advogada')
+                .replace(/\bsócio\b/gi, function (match) {
+                  return match[0] === match[0].toUpperCase() ? 'Sócia' : 'sócia';
+                });
+            }
+          }
+
+          // Also fix partner card name area for role text
+          const pBody = card.querySelector('.partner-card__body');
+          if (pBody) {
+            const walker2 = document.createTreeWalker(pBody, NodeFilter.SHOW_TEXT, null, false);
+            let node2;
+            while (node2 = walker2.nextNode()) {
+              node2.textContent = node2.textContent
+                .replace(/\bAdvogado\b/g, 'Advogada')
+                .replace(/\badvogado\b/g, 'advogada')
+                .replace(/\bsócio\b/gi, function (match) {
+                  return match[0] === match[0].toUpperCase() ? 'Sócia' : 'sócia';
+                });
+            }
+          }
+        });
+      }
+    }
+
+    // Fix Isabela's card text for Portuguese (female gender)
+    const ISABELA_TRANSLATIONS = {
+      en: {
+        name: 'Isabela Brasil do Amaral',
+        role: 'Attorney',
+        short: 'Attorney licensed in Washington D.C. and authorized to represent clients in the area of immigration throughout the United States...',
+        full: 'Attorney licensed in Washington D.C. and authorized to represent clients in the area of immigration throughout the United States. Isabela obtained her bachelor\'s degree in law from UniChristys University in Fortaleza, Ceará and her master\'s degree from the University of Dayton, Ohio.'
+      },
+      pt: {
+        name: 'Isabela Brasil do Amaral',
+        role: 'Advogada',
+        short: 'Advogada licenciada em Washington D.C. e autorizada a representar clientes na área de imigração em todo os Estados Unidos...',
+        full: 'Advogada licenciada em Washington D.C. e autorizada a representar clientes na área de imigração em todo os Estados Unidos. Isabela obteve sua graduação em direito pela Universidade UniChristus em Fortaleza, Ceará, e seu mestrado pela Universidade de Dayton, Ohio.'
+      },
+      es: {
+        name: 'Isabela Brasil do Amaral',
+        role: 'Abogada',
+        short: 'Abogada licenciada en Washington D.C. y autorizada para representar clientes en el área de inmigración en todos los Estados Unidos...',
+        full: 'Abogada licenciada en Washington D.C. y autorizada para representar clientes en el área de inmigración en todos los Estados Unidos. Isabela obtuvo su licenciatura en derecho por la Universidad UniChristus en Fortaleza, Ceará, y su maestría por la Universidad de Dayton, Ohio.'
+      }
+    };
+
+    function fixIsabela() {
+      const cookie = document.cookie.split('; ').find(r => r.startsWith('googtrans='));
+      let lang = 'en';
+      if (cookie) {
+        const m = cookie.match(/\/en\/([a-z]+)/);
+        if (m) lang = m[1];
+      }
+      const t = ISABELA_TRANSLATIONS[lang] || ISABELA_TRANSLATIONS['en'];
+      const nameEl = document.querySelector('.isabela-name');
+      const roleEl = document.querySelector('.isabela-role');
+      const shortEl = document.querySelector('.isabela-short');
+      const fullEl = document.querySelector('.isabela-full');
+      if (nameEl) nameEl.textContent = t.name;
+      if (roleEl) roleEl.textContent = t.role;
+      if (shortEl) shortEl.textContent = t.short;
+      if (fullEl) fullEl.textContent = t.full;
+    }
+
+    // Links "Kelmer Neves": PT e ES têm página fixa própria (as outras línguas usam a página em inglês)
+    function fixKelmerLinks() {
+      const cookie = document.cookie.split('; ').find(r => r.startsWith('googtrans='));
+      const m = cookie && cookie.match(/\/en\/([a-z]+)/);
+      const lang = m ? m[1] : 'en';
+      const path = (lang === 'pt' || lang === 'es') ? lang + '/kelmer-neves/' : 'kelmer-neves/';
+      document.querySelectorAll('.kelmer-link').forEach(a => {
+        a.setAttribute('href', path);
+        a.classList.add('notranslate');
+      });
+    }
+    document.addEventListener('DOMContentLoaded', fixKelmerLinks);
+
+    // Run once on load — no MutationObserver needed because doGTranslate()
+    // always calls window.location.reload(), so the page is fresh on every
+    // language switch and DOMContentLoaded fires again.
+    document.addEventListener('DOMContentLoaded', () => {
+      fixIsabela();
+      fixGender();
+    });
+
+    // Update Nav on scroll
+    window.addEventListener('scroll', () => {
+      const nav = document.getElementById('mainNav');
+      const navLogo = document.getElementById('navLogo');
+      const isScrolled = window.scrollY > 120;
+
+      nav.style.background = isScrolled ? 'rgba(15,27,60,.98)' : 'rgba(15,27,60,.85)';
+      nav.style.backdropFilter = isScrolled ? 'blur(10px)' : 'blur(20px)';
+
+      if (navLogo) {
+        const isMobile = window.innerWidth <= 768;
+        navLogo.style.opacity = isScrolled ? '1' : '0';
+        navLogo.style.pointerEvents = isScrolled ? 'auto' : 'none';
+
+        if (isMobile) {
+          // For mobile, maintain normal position
+          navLogo.style.transform = isScrolled ? 'translateX(0)' : 'translateX(-10px)';
+        } else {
+          // For desktop, use the original slide-in effect
+          navLogo.style.transform = isScrolled ? 'translateX(0)' : 'translateX(-20px)';
+        }
+      }
+    });
+  </script>
+
+  <div id="google_translate_element"></div>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: 'en,pt,es,fa,ko,ar,uk,gu,zh-CN,ru', autoDisplay: false }, 'google_translate_element');
+    }
+    function doGTranslate(lang) {
+      if (lang === 'en') {
+        document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+        if (window.location.hostname) document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=" + window.location.hostname;
+      } else {
+        document.cookie = "googtrans=/en/" + lang + "; path=/";
+        if (window.location.hostname) document.cookie = "googtrans=/en/" + lang + "; path=/; domain=" + window.location.hostname;
+      }
+      window.location.reload();
+    }
+  </script>
+  <script type="text/javascript"
+    src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>
