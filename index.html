@@ -1683,6 +1683,7 @@
 .lp-form .touched:invalid{border-color:#f87171;background:rgba(248,113,113,.08)}
 .lp-form small{text-align:center;opacity:.75}
 .lp-form-sec .section-title,.lp-form-sec .section-body{color:#fff;text-align:center}
+.lp-lang{position:absolute;top:16px;right:16px;z-index:50;margin-left:0;background:rgba(10,22,48,.55);border-radius:10px;padding:3px;backdrop-filter:blur(6px)}
 .lp-wa{position:fixed;right:18px;bottom:18px;width:58px;height:58px;border-radius:50%;background:#25d366;color:#fff;display:grid;place-items:center;font-size:30px;z-index:99;box-shadow:0 6px 20px rgba(0,0,0,.25)}
 .lp-ok{display:none;text-align:center;padding:2rem;border-radius:12px;background:rgba(37,211,102,.12);margin-top:1.5rem}
 .lp-form-sec .container{text-align:center}.lp-form-sec .section-body{margin:0 auto;opacity:.85}.lp-form{text-align:left}.lp-cta .btn{display:inline-flex}.location .lp-cta p{color:rgba(255,255,255,.85);opacity:1}
@@ -1700,7 +1701,11 @@
       src="https://www.facebook.com/tr?id=1195165865561232&ev=PageView&noscript=1" /></noscript>
   <!-- End Meta Pixel Code (noscript) -->
 
-<section id="home" class="hero"><div class="hero__inner"><div class="hero__content">
+<section id="home" class="hero"><div class="lang-switch lp-lang notranslate" translate="no" aria-label="Idioma">
+<button class="lang-flag-btn" id="langBtn-en" lang="en" onclick="doGTranslate('en');return false;"><img src="https://flagcdn.com/w20/us.png" class="flag-icon" alt=""> <span>English</span></button>
+<button class="lang-flag-btn" id="langBtn-pt" lang="pt-BR" onclick="doGTranslate('pt');return false;"><img src="https://flagcdn.com/w20/br.png" class="flag-icon" alt=""> <span>Português</span></button>
+<button class="lang-flag-btn" id="langBtn-es" lang="es" onclick="doGTranslate('es');return false;"><img src="https://flagcdn.com/w20/es.png" class="flag-icon" alt=""> <span>Español</span></button>
+</div><div class="hero__inner"><div class="hero__content">
 <img src="img/logo-claro.png" alt="Nationwide Immigration LLC" class="hero__logo">
 <h1 class="hero__title">Transforme seus <span class="hl">sonhos</span> em realidade com a orientação especializada em imigração</h1>
 <p class="hero__desc">Se você sonha em viver, trabalhar ou estudar nos Estados Unidos, nossa equipe jurídica especializada está aqui para orientá-lo em cada etapa do processo de imigração, de forma rápida, segura e com suporte personalizado.</p>
@@ -1739,7 +1744,7 @@
 <label for="f-nome">Nome completo *</label><input id="f-nome" name="Nome" placeholder="Seu nome" required autocomplete="name">
 <label for="f-wa">WhatsApp com DDD *</label><input id="f-wa" name="WhatsApp" pattern="[0-9+()\s-]{8,}" type="tel" inputmode="numeric" placeholder="+55 21 99999-9999" required autocomplete="tel">
 <label for="f-mail">E-mail *</label><input id="f-mail" name="E-mail" type="email" placeholder="voce@email.com" required autocomplete="email">
-<label for="loc">Onde você está atualmente? *</label><select name="Localização" id="loc" required><option value="">Selecione</option><option>Já estou nos EUA</option><option>Estou no Brasil</option></select>
+<label for="loc">Onde você está atualmente? *</label><select name="Localização" id="loc" required><option value="">Selecione</option><option value="Já estou nos EUA">Já estou nos EUA</option><option value="Estou no Brasil">Estou no Brasil</option></select>
 <label for="uf" id="ufl" style="display:none">Em qual estado? *</label><select name="Estado" id="uf" style="display:none"><option value="">Selecione o estado</option><option>Alabama</option><option>Alasca</option><option>Arizona</option><option>Arkansas</option><option>Califórnia</option><option>Carolina do Norte</option><option>Carolina do Sul</option><option>Colorado</option><option>Connecticut</option><option>Dakota do Norte</option><option>Dakota do Sul</option><option>Delaware</option><option>Flórida</option><option>Geórgia</option><option>Havaí</option><option>Idaho</option><option>Illinois</option><option>Indiana</option><option>Iowa</option><option>Kansas</option><option>Kentucky</option><option>Louisiana</option><option>Maine</option><option>Maryland</option><option>Massachusetts</option><option>Michigan</option><option>Minnesota</option><option>Mississippi</option><option>Missouri</option><option>Montana</option><option>Nebraska</option><option>Nevada</option><option>New Hampshire</option><option>New Jersey</option><option>Nova York</option><option>Novo México</option><option>Ohio</option><option>Oklahoma</option><option>Oregon</option><option>Pensilvânia</option><option>Rhode Island</option><option>Tennessee</option><option>Texas</option><option>Utah</option><option>Vermont</option><option>Virgínia</option><option>Virgínia Ocidental</option><option>Washington</option><option>Washington DC</option><option>Wisconsin</option><option>Wyoming</option></select>
 <label for="f-obj">Qual é o seu principal objetivo hoje? *</label><select id="f-obj" name="Objetivo" required><option value="">Selecione</option><option>Morar definitivamente (Green Card / Residência)</option><option>Trabalhar ou empreender no exterior</option><option>Estudar ou fazer intercâmbio</option><option>Reunificação familiar / Casamento</option><option>Regularização ou problemas com visto atual</option><option>Ainda não sei / Preciso de orientação geral</option></select>
 <label for="f-caso">Conte resumidamente o seu caso (opcional)</label><textarea id="f-caso" name="Caso" placeholder="Ex.: tenho visto de turista e quero trabalhar nos EUA" maxlength="600"></textarea>
@@ -1751,7 +1756,22 @@
 
 <footer class="footer"><div class="footer__bottom"><img src="img/logo-claro.png" alt="Nationwide Immigration LLC" style="height:46px;margin-bottom:14px"><div>+1 (202) 893-4273 &nbsp;|&nbsp; contact@nationwideimmigrationllc.com</div><div style="margin-top:8px">&copy; 2026 Nationwide Immigration LLC. Todos os direitos reservados.</div></div></footer>
 <a class="lp-wa" href="https://api.whatsapp.com/send/?phone=12028934273&text=Ol%C3%A1!%20Vim%20da%20LP%20e%20cliquei%20no%20%C3%ADcone%20do%20WhatsApp.%20Gostaria%20de%20uma%20consulta%20de%20imigra%C3%A7%C3%A3o" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-<script>(function(){var msgs={pt:'Olá! Vim da LP e cliquei no ícone do WhatsApp. Gostaria de uma consulta de imigração',en:"Hello! I came from the landing page and clicked the WhatsApp icon. I'd like an immigration consultation",es:'¡Hola! Vengo de la landing page y hice clic en el ícono de WhatsApp. Me gustaría una consulta de inmigración'};var l=(document.documentElement.lang||'pt').slice(0,2).toLowerCase();var m=msgs[l]||msgs.pt;var a=document.querySelector('a.lp-wa');if(a)a.href='https://api.whatsapp.com/send/?phone=12028934273&text='+encodeURIComponent(m);})();</script>
+<div id="google_translate_element"></div>
+<script>
+// Seletor de idioma via Google Tradutor (página original em PT). Cookie googtrans=/pt/en ou /pt/es.
+function clearGT(){var x="googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";document.cookie=x;if(location.hostname){document.cookie=x+" domain="+location.hostname;document.cookie=x+" domain=."+location.hostname;}}
+function lpLang(){var m=document.cookie.match(/googtrans=\/pt\/(en|es)(;|$)/);return m?m[1]:"pt";}
+// Cookie com outro idioma (ex.: herdado do site principal, que usa /en/...) volta para PT
+if(/googtrans=\/[^;]+/.test(document.cookie)&&!/googtrans=\/pt\/(en|es)(;|$)/.test(document.cookie))clearGT();
+function doGTranslate(lang){if(lang==="pt"){clearGT();}else{var c="googtrans=/pt/"+lang+"; path=/;";document.cookie=c;if(location.hostname)document.cookie=c+" domain="+location.hostname;}location.reload();}
+function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"pt",includedLanguages:"pt,en,es",autoDisplay:false},"google_translate_element");}
+(function(){var b=document.getElementById("langBtn-"+lpLang());if(b)b.classList.add("active");
+// Mensagem do ícone do WhatsApp no idioma escolhido
+var msgs={pt:"Olá! Vim da LP e cliquei no ícone do WhatsApp. Gostaria de uma consulta de imigração",en:"Hello! I came from the landing page and clicked the WhatsApp icon. I would like an immigration consultation",es:"¡Hola! Vengo de la landing page y hice clic en el ícono de WhatsApp. Me gustaría una consulta de inmigración"};
+var a=document.querySelector("a.lp-wa");function set(){a.href="https://api.whatsapp.com/send/?phone=12028934273&text="+encodeURIComponent(msgs[lpLang()]);}
+if(a){set();a.addEventListener("click",set);}})();
+</script>
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <script>
 var loc=document.getElementById('loc'),uf=document.getElementById('uf');
 loc.addEventListener('change',function(){var u=this.value==='Já estou nos EUA';uf.style.display=document.getElementById('ufl').style.display=u?'':'none';uf.required=u;if(!u)uf.value='';});
